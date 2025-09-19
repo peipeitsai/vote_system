@@ -1,0 +1,73 @@
+name: vote_test
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.1
+  pull_to_refresh: ^2.0.0
+  cupertino_icons: ^1.0.2
+  connectivity_plus: ^1.4.0
+  shared_preferences: ^2.0.7
+  cached_network_image: ^3.1.0
+  flutter_svg: ^0.22.0
+  web3dart: ^2.3.3
+  velocity_x: ^3.5.1
+  http: ^0.13.4
+  fl_chart: ^0.45.0
+  path_provider: ^2.0.5
+  url_launcher: ^6.0.20
+  walletconnect_dart: ^0.0.10
+  google_fonts: ^3.0.1
+  slider_button: ^2.0.0
+  flutter_secure_storage: ^5.1.0
+  walletconnect_secure_storage: ^1.0.0
+  fluttertoast: ^8.0.9
+  eip55: ^1.0.2
+  hash: ^1.0.1
+  firebase_core: ^1.21.1
+  firebase_messaging: ^13.0.0
+  flutter_local_notifications: ^9.9.1
+  encrypt: ^5.0.1
+
+  firebase_auth: ^3.6.4
+
+
+dev_dependencies:
+  flutter_test: 
+    sdk: flutter
+  build_runner: ^2.1.8
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.0.5
+  http:
+
+flutter_native_splash:
+  image: assets/images/ballot.png
+  color: "#E0E0E0"
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+    - assets/contractAddress.txt
+    - assets/blockchainUrl.txt
+    - assets/public.pem
+    - assets/private.pem
+    - assets/init_Voting.json
+  fonts:
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanBlack.ttf
+          weight: 900
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanBold.ttf
+          weight: 700
+    - family: Mulish
+      fonts: 
+        - asset: assets/fonts/MulishBold.ttf
+          weight: 700
+        - asset: assets/fonts/MulishRegular.ttf
+          weight: 400
